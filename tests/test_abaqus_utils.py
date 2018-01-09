@@ -4,7 +4,7 @@ import os
 from fem_utils import abaqus_utils
 
 
-class TestNastranUtils(unittest.TestCase):
+class TestAbaqusUtils(unittest.TestCase):
     def setUp(self):
         self._model_dir = os.path.join(os.path.dirname(__file__), 'data', 'abaqus(.inp)')
 

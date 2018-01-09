@@ -10,8 +10,8 @@ class TestFindMaster(unittest.TestCase):
 
     def test_io(self):
         list_folder_master = [
-            ["abaqus(.inp)",     "quad.inp"],
-            ["nastran(.bdf)",    "quad.bdf"],
+            ["abaqus(.inp)",     "quad"],
+            ["nastran(.bdf)",    "quad"],
             ["optistruct(.fem)", "quad.fem"],
             ["dyna(.k)",         "quad.k"],
             ["ansys(.cdb)",      "cloads.cdb"],

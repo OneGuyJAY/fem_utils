@@ -1,1 +1,3 @@
-{}
+{
+  "tests/test_find_master.py::TestFindMaster::test_io": true
+}
